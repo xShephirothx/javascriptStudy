@@ -42,4 +42,4 @@ console.log(numero == numeroString)
 console.log(numero + Number(numeroString)) // Converte de string para "Number()"
 console.log(String(numero) + numeroString) // Converte de número para "String()"
 
-
+console.log(numero.toString() + " em formato de String") // Outra forma de conversão para string
