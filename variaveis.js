@@ -45,10 +45,38 @@ console.log(String(numero) + numeroString) // Converte de número para "String()
 console.log(numero.toString() + " em formato de String") // Outra forma de conversão para string
 
 // Nomes reservados pela linguagem:
-// Variable declaration not allowed at this location
+// Erro apresentado pelo editor: Variable declaration not allowed at this location
 // let var = 0;
 // let if = "alura"
 // let const = "ABC"
-// Variable declaration not allowed at this location
+// Erro apresentado pelo editor: Variable declaration not allowed at this location
+
+var respostaDeTudo = 42
+let idade = 29
+const pi = 3.14
+
+{
+    var respostaDeTudo = 3.14
+    let idade = 42
+    const pi = 29
+    console.log(respostaDeTudo, idade, pi)
+
+}
+console.log(respostaDeTudo, idade, pi)
+
+
+let minhaLet;
+console.log(minhaLet); //undefined
+console.log(typeof(minhaLet)); //undefined
+// atribuindo um valor com TIPO DE DADO STRING
+minhaLet = "eu sou um texto";
+console.log(minhaLet); // "eu sou um texto"
+console.log(typeof(minhaLet)); // "eu sou um texto"
+// reatribuindo, desta vez com dado do TIPO NUMBER
+minhaLet = 100;
+console.log(minhaLet); //100
+console.log(typeof(minhaLet)); //100
+
+
 
 
